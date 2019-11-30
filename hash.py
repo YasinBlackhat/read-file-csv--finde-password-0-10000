@@ -7,7 +7,8 @@ countname = 0
 count_csv_hash = 0
 d = 1
 # read file csv for crack
-with open('E:\\Land program\\maktabkhooneh\\maktabkhooneh\\Begin\\Chapter6 (Project)\\2.csv') as f:
+locate = str(input('Type or Paste location file csv : '))
+with open(locate) as f:
     reader = csv.reader(f)
     for row in reader:
         name = row[0]
@@ -43,9 +44,3 @@ for pass_list in range(0,10000):
     except :
         print('""WooooW"" These passwords for you :) ')
         break
-                    
-            
-                
-            
-            
-
