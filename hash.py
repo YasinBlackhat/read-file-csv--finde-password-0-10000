@@ -7,9 +7,14 @@ countname = 0
 count_csv_hash = 0
 d = 1
 # read file csv for crack
+<<<<<<< HEAD
 print('Example Type location : E:\\Land program\\new folder\\2.csv')
 locat = str(input('Enter your location file csv : '))
 with open(locat) as f:
+=======
+locate = str(input('Type or Paste location file csv : '))
+with open(locate) as f:
+>>>>>>> 5d2287294494f8125584f9bcc7d1c77a22306ef4
     reader = csv.reader(f)
     for row in reader:
         name = row[0]
@@ -45,6 +50,7 @@ for pass_list in range(0,10000):
     except :
         print('""WooooW"" These passwords for you :) ')
         break
+<<<<<<< HEAD
 
 print('')
 print('My Working End**')
@@ -53,3 +59,5 @@ print('My Working End**')
             
             
 
+=======
+>>>>>>> 5d2287294494f8125584f9bcc7d1c77a22306ef4
