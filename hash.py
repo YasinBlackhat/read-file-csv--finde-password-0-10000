@@ -7,7 +7,9 @@ countname = 0
 count_csv_hash = 0
 d = 1
 # read file csv for crack
-with open('E:\\Land program\\maktabkhooneh\\maktabkhooneh\\Begin\\Chapter6 (Project)\\2.csv') as f:
+print('Example Type location : E:\\Land program\\new folder\\2.csv')
+locat = str(input('Enter your location file csv : '))
+with open(locat) as f:
     reader = csv.reader(f)
     for row in reader:
         name = row[0]
